@@ -30,31 +30,31 @@ const routes: IRoute[] = [
     name: 'Dashboard', // name that appear in Sidebar
     exact: true,
   },
-  // {
-  //   path: '/example/forms',
-  //   icon: 'FormsIcon',
-  //   name: 'Forms',
-  // },
-  // {
-  //   path: '/example/cards',
-  //   icon: 'CardsIcon',
-  //   name: 'Cards',
-  // },
-  // {
-  //   path: '/example/charts',
-  //   icon: 'ChartsIcon',
-  //   name: 'Charts',
-  // },
-  // {
-  //   path: '/example/buttons',
-  //   icon: 'ButtonsIcon',
-  //   name: 'Buttons',
-  // },
-  // {
-  //   path: '/example/modals',
-  //   icon: 'ModalsIcon',
-  //   name: 'Modals',
-  // },
+  {
+    path: '/example/forms',
+    icon: 'FormsIcon',
+    name: 'Forms',
+  },
+  {
+    path: '/example/cards',
+    icon: 'CardsIcon',
+    name: 'Cards',
+  },
+  {
+    path: '/example/charts',
+    icon: 'ChartsIcon',
+    name: 'Charts',
+  },
+  {
+    path: '/example/buttons',
+    icon: 'ButtonsIcon',
+    name: 'Buttons',
+  },
+  {
+    path: '/example/modals',
+    icon: 'ModalsIcon',
+    name: 'Modals',
+  },
   {
     path: '/example/tables',
     icon: 'TablesIcon',

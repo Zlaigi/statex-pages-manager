@@ -12,7 +12,6 @@ function Forms() {
   return (
     <Layout>
       <PageTitle>Forms</PageTitle>
-      <CTA />
       <SectionTitle>Elements</SectionTitle>
 
       <div className="px-4 py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800">

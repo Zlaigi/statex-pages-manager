@@ -22,6 +22,7 @@ import {
   Avatar,
   Badge,
   Pagination,
+  Input,
 } from '@roketid/windmill-react-ui'
 
 import {
@@ -142,7 +143,7 @@ function Dashboard() {
                   <span className="text-sm">{user.name}</span>
                 </TableCell>
                 <TableCell>
-                <span className="text-sm">{user.name}</span>
+                <Input className="mt-1 w-64" placeholder="Jane Doe" />
                 </TableCell>
                 <TableCell>
                   <span className="text-sm">
